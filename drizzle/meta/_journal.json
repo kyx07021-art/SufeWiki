@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790951991228,
+      "tag": "0000_soft_scorpion",
+      "breakpoints": true
+    }
+  ]
+}
