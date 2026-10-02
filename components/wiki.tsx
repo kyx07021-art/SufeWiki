@@ -21,6 +21,16 @@ function Outline({ nodes, active, query }: { nodes: WikiNode[]; active: string; 
   </li>)}</ul>;
 }
 
+function SearchResults({ matches, onSelect }: { matches: WikiNode[]; onSelect: () => void }) {
+  const { setOpenMobile } = useSidebar();
+  return <ul className="search-results">{matches.map(section => <li key={section.id}><a href={`#${section.id}`} onClick={() => { onSelect(); setOpenMobile(false); }}>{section.title}<small>{section.body.replace(/[>#|*]/g, '').slice(0, 65) || '等待同学补充'}</small></a></li>)}{!matches.length && <li className="no-results">没有找到相关条目，换个关键词试试。</li>}</ul>;
+}
+
+function AddEntry({ onClick }: { onClick: () => void }) {
+  const { setOpenMobile } = useSidebar();
+  return <button className="add-entry" onClick={() => { setOpenMobile(false); onClick(); }}><Plus size={15} />新增条目</button>;
+}
+
 export function Wiki({ initialSections }: { initialSections: Section[] }) {
   const [sections, setSections] = useState(initialSections);
   const [editing, setEditing] = useState<Section | 'new' | null>(null);
@@ -96,8 +106,8 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
       <SidebarHeader className="brand-area"><a className="brand" href="#"><span className="brand-mark">财</span><span>上财 Wiki<small>SUFE · STUDENT WIKI</small></span></a><p>把校园经验，留给下一个你。</p></SidebarHeader>
       <div className="search-box"><Search size={16} /><input aria-label="搜索目录与正文" placeholder="搜索目录与正文…" value={query} onChange={event => setQuery(event.target.value)} /><kbd>/</kbd></div>
       <div className="outline-label"><span>{query ? `搜索结果 · ${matches.length}` : '内容目录'}</span><BookOpen size={14} /></div>
-      <SidebarContent className="outline-scroll">{query ? <ul className="search-results">{matches.map(section => <li key={section.id}><a href={`#${section.id}`} onClick={() => setQuery('')}>{section.title}<small>{section.body.replace(/[>#|*]/g, '').slice(0, 65) || '等待同学补充'}</small></a></li>)}{!matches.length && <li className="no-results">没有找到相关条目，换个关键词试试。</li>}</ul> : <Outline nodes={tree} active={active} query={query} />}</SidebarContent>
-      <SidebarFooter className="sidebar-note"><button className="add-entry" onClick={() => setEditing('new')}><Plus size={15} />新增条目</button><span className="community-dot" />学生共建 · 持续更新<small>非学校官方网站</small></SidebarFooter>
+      <SidebarContent className="outline-scroll">{query ? <SearchResults matches={matches} onSelect={() => setQuery('')} /> : <Outline nodes={tree} active={active} query={query} />}</SidebarContent>
+      <SidebarFooter className="sidebar-note"><AddEntry onClick={() => setEditing('new')} /><span className="community-dot" />学生共建 · 持续更新<small>非学校官方网站</small></SidebarFooter>
     </Sidebar>
     <main id="wiki-content" className="wiki-main">
       <header className="topbar"><div><SidebarTrigger aria-label="展开或收起目录" /><span>校园知识库</span><ChevronRight size={13} /><span className="breadcrumb-current">{sections.find(section => section.id === active)?.title}</span></div><button className="guide-link" onClick={() => setShowGuide(true)}>贡献指南 <ArrowUpRight size={14} /></button></header>
