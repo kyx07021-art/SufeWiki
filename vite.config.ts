@@ -70,6 +70,7 @@ export default defineConfig(async ({ command }) => {
         inspectorPort: false,
         config: standalone ? {
           name: process.env.CF_WORKER_NAME ?? "sufe-wiki",
+          workers_dev: true,
           main: "./build/cloudflare-worker.ts",
           compatibility_date: "2026-05-15",
           compatibility_flags: ["nodejs_compat"],
