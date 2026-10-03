@@ -50,6 +50,8 @@ npm.cmd run dev
 
 ## 检查与部署
 
+**部署到自己的 Cloudflare 账号：**按 [Cloudflare 部署步骤](docs/CLOUDFLARE.md) 配置 D1 和 GitHub 自动部署，无需 R2。使用 `npm run build:cloudflare` 与 `npm run deploy:cloudflare`；下面的普通 `build` 命令用于 Sites。
+
 ```powershell
 node node_modules/typescript/bin/tsc --noEmit
 npm.cmd run build

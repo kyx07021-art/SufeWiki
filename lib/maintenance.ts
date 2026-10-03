@@ -3,20 +3,24 @@ import { getChatGPTUser } from '@/app/chatgpt-auth';
 import { getDb } from '@/db';
 import { listSections } from './wiki-store';
 import { flattenTree, wikiTree, type Section } from './wiki';
+import { readSnapshot, storeSnapshot } from './snapshot-store';
 
-export async function isMaintainer() {
+export async function isMaintainer(request: Request) {
+  if (env.DEPLOYMENT_TARGET === 'cloudflare') {
+    return !!env.MAINTENANCE_TOKEN && request.headers.get('authorization') === `Bearer ${env.MAINTENANCE_TOKEN}`;
+  }
   const user = await getChatGPTUser();
   return !!user && user.email === env.ADMIN_EMAIL;
 }
 
 export async function restoreBackup(key: string) {
-  const object = await env.BUCKET.get(key);
-  if (!object) return null;
-  const backup = await object.json<{ format: string; sections: Section[] }>();
+  const json = await readSnapshot(key);
+  if (!json) return null;
+  const backup = JSON.parse(json) as { format: string; sections: Section[] };
   const current = await listSections();
   const now = new Date().toISOString();
   const rescueKey = `before-restore/${now.replace(/:/g, '-')}-${crypto.randomUUID()}.json`;
-  await env.BUCKET.put(rescueKey, JSON.stringify({ format: 'sufe-wiki/v1', createdAt: now, sections: current }), { httpMetadata: { contentType: 'application/json' } });
+  await storeSnapshot(rescueKey, current);
   const db = getDb();
   // Whole-document restore is atomic. Revision numbers increase so old drafts still conflict.
   const statements = [db.prepare('PRAGMA defer_foreign_keys = ON'),

@@ -24,3 +24,16 @@ export const backups = sqliteTable('backups', {
   sectionCount: integer('section_count').notNull(),
   sha256: text('sha256').notNull(),
 });
+
+export const snapshots = sqliteTable('wiki_snapshots', {
+  key: text('key').primaryKey(),
+  createdAt: text('created_at').notNull(),
+  sectionCount: integer('section_count').notNull(),
+  sha256: text('sha256').notNull(),
+});
+
+export const snapshotSections = sqliteTable('wiki_snapshot_sections', {
+  key: text('snapshot_key').notNull().references(() => snapshots.key),
+  ordinal: integer('ordinal').notNull(),
+  section: text('section').notNull(),
+}, table => [primaryKey({ columns: [table.key, table.ordinal] })]);

@@ -1,4 +1,5 @@
 import vinext from "vinext";
+import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
@@ -13,6 +14,7 @@ const { d1, r2 } = hostingConfig;
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const managedLinux = readExecutionProfile() === "managed-linux";
+const standalone = process.env.DEPLOY_TARGET === "cloudflare";
 
 const localBindingConfig = {
   main: "./build/sites-worker.ts",
@@ -62,12 +64,25 @@ export default defineConfig(async ({ command }) => {
     },
     plugins: [
       vinext(),
-      sites({ mockAuth: !managedLinux }),
-      connectorPreview(),
+      ...(!standalone ? [sites({ mockAuth: !managedLinux }), connectorPreview()] : []),
       cloudflare({
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
         inspectorPort: false,
-        config: {
+        config: standalone ? {
+          name: process.env.CF_WORKER_NAME ?? "sufe-wiki",
+          main: "./build/cloudflare-worker.ts",
+          compatibility_date: "2026-05-15",
+          compatibility_flags: ["nodejs_compat"],
+          vars: { DEPLOYMENT_TARGET: "cloudflare" },
+          d1_databases: [{
+            binding: "DB",
+            database_name: "sufe-wiki-db",
+            database_id: process.env.CF_D1_DATABASE_ID!,
+            migrations_dir: resolve("drizzle"),
+          }],
+          triggers: { crons: ["0 */4 * * *"] },
+          observability: { enabled: true },
+        } : {
           ...localBindingConfig,
           ...(command === "serve"
             ? {
@@ -81,7 +96,7 @@ export default defineConfig(async ({ command }) => {
               }
             : {}),
         },
-        ...(command === "serve"
+        ...(!standalone && command === "serve"
           ? {
               auxiliaryWorkers: [
                 {
