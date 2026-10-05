@@ -4,5 +4,5 @@ import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/compone
 import { Markdown } from './markdown';
 
 export function Guide({ text, onClose }: { text: string; onClose: () => void }) {
-  return <Dialog open onOpenChange={open => { if (!open) onClose(); }}><DialogContent className="guide-dialog"><DialogTitle>一起维护上财 Wiki</DialogTitle><DialogDescription>改正一处信息，也是一次有用的贡献。</DialogDescription><Markdown>{text}</Markdown></DialogContent></Dialog>;
+  return <Dialog open onOpenChange={open => { if (!open) onClose(); }}><DialogContent className="guide-dialog"><DialogTitle>贡献指南</DialogTitle><DialogDescription>上财 Wiki 由学生共同维护，任何同学都可以补充和修正内容。</DialogDescription><Markdown>{text}</Markdown></DialogContent></Dialog>;
 }
