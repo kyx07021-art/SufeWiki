@@ -86,6 +86,8 @@ D1 免费额度：https://developers.cloudflare.com/d1/platform/pricing/
 
 ## 本地手动部署（可选）
 
+词条赞踩、匿名评论和评论维护操作见 [反馈功能说明](FEEDBACK.md)。新的定时快照也包含这些反馈，普通正文恢复保留当前反馈。
+
 ```powershell
 cd C:\Users\Lenovo\Desktop\SufeWiki\site
 git pull github main

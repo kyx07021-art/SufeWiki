@@ -55,7 +55,20 @@ export async function createComment(sectionId: string, browserId: string, body: 
   return { comment, feedback: await entryFeedback(sectionId, browserId) };
 }
 
-export async function hideComment(id: number) {
-  const result = await getDb().prepare('UPDATE section_comments SET deleted_at = ? WHERE id = ? AND deleted_at IS NULL').bind(new Date().toISOString(), id).run();
+export async function setCommentHidden(id: number, hidden: boolean) {
+  const result = await getDb().prepare('UPDATE section_comments SET deleted_at = ? WHERE id = ?').bind(hidden ? new Date().toISOString() : null, id).run();
   return !!result.meta.changes;
+}
+
+export interface FeedbackSnapshot {
+  votes: { sectionId: string; browserId: string; vote: Vote }[];
+  comments: (Comment & { sectionId: string; deletedAt: string | null })[];
+}
+
+export async function feedbackSnapshot(): Promise<FeedbackSnapshot> {
+  const [votes, comments] = await getDb().batch([
+    getDb().prepare('SELECT section_id AS sectionId, browser_id AS browserId, vote FROM section_votes ORDER BY section_id, browser_id'),
+    getDb().prepare('SELECT id, section_id AS sectionId, body, created_at AS createdAt, deleted_at AS deletedAt FROM section_comments ORDER BY id'),
+  ]);
+  return { votes: votes.results as FeedbackSnapshot['votes'], comments: comments.results as FeedbackSnapshot['comments'] };
 }

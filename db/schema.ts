@@ -30,6 +30,7 @@ export const snapshots = sqliteTable('wiki_snapshots', {
   createdAt: text('created_at').notNull(),
   sectionCount: integer('section_count').notNull(),
   sha256: text('sha256').notNull(),
+  format: text('format').notNull().default('sufe-wiki/v1'),
 });
 
 export const snapshotSections = sqliteTable('wiki_snapshot_sections', {
@@ -64,3 +65,10 @@ export const sectionComments = sqliteTable('section_comments', {
   createdAt: text('created_at').notNull(),
   deletedAt: text('deleted_at'),
 }, table => [index('comments_section').on(table.sectionId, table.id), check('comment_length', sql`length(${table.body}) BETWEEN 1 AND 2000`)]);
+
+export const snapshotFeedback = sqliteTable('wiki_snapshot_feedback', {
+  key: text('snapshot_key').notNull().references(() => snapshots.key),
+  kind: text('kind').notNull(),
+  ordinal: integer('ordinal').notNull(),
+  record: text('record').notNull(),
+}, table => [primaryKey({ columns: [table.key, table.kind, table.ordinal] })]);
