@@ -31,11 +31,23 @@
 
 点击 **Retry build / 重试构建**。部署成功后访问控制台显示的 `workers.dev` 地址；也可以之后绑定自有域名。首次读取空数据库会导入仓库内的 100 个条目。后续代码部署保留在线编辑内容。
 
-这是动态网站，选择 Workers；只上传 `dist/client` 到静态 Pages 无法保存贡献。
+这是动态网站，后台使用 Workers。下面的 Pages 入口通过内部 Service binding 调用同一个后台；只上传 `dist/client` 到静态 Pages 无法保存贡献。
 
 官方说明：https://developers.cloudflare.com/workers/ci-cd/builds/configuration/
 
-## 3. 管理员恢复权限
+## 3. 对外使用 pages.dev 入口
+
+在 **Workers & Pages → Create application → Continue to Pages → Import an existing Git repository** 选择同一个 `SufeWiki` 仓库。生产分支 `main`，项目名 `sufewiki`，框架预设 `None`，构建命令 **`npm run build:pages`**，输出目录 **`dist/pages`**，根目录 `/`。
+
+在 Pages 项目的 **Settings → Bindings → Add → Service binding** 配置变量名 **`WIKI`**，绑定后台 Worker **`sufewiki`**。生产和预览都使用同一个后台时，都配置此绑定；预览的编辑也会改变正式正文。保存后重新部署。
+
+对外入口为 **https://sufewiki.pages.dev**。Pages 转发首页、正文接口、编辑和静态资源，浏览器只请求 Pages 域名；不跳转到 `workers.dev`。内部连接使用 Cloudflare Service binding，不依赖后台的公网地址。D1、管理员密钥和四小时 Cron 继续由后台 Worker 管理。两个项目均由同一 GitHub 仓库自动部署，后台发布完成后 Pages 即使用新版本。
+
+`pages.dev` 后缀不保证内地所有网络可达，需要用学校网络和手机流量实际确认。
+
+官方说明：https://developers.cloudflare.com/pages/functions/bindings/#service-bindings
+
+## 4. 管理员恢复权限
 
 普通同学可以直接阅读和编辑，不需要登录。独立 Cloudflare 部署不使用 Sites 注入的登录邮箱；管理员读取、下载和恢复备份使用一个独立密钥。
 
@@ -58,7 +70,9 @@ Authorization: Bearer <MAINTENANCE_TOKEN>
 
 恢复使用 `POST /api/restore`，带 Authorization、`Content-Type: application/json` 和 `Origin: https://你的实际网站域名`，正文为 `{"key":"备份 key"}`。恢复会先保存一份当前内容的救援快照。
 
-## 4. 备份与迁移
+## 5. 备份与迁移
+
+删除条目前会额外保存 `before-delete/` 快照并记录在备份索引；维护者可通过同一个下载与恢复接口找回。清空所有条目后，刷新或重新部署不会再次导入种子文档。删除和新增都立即生效，无需审核。
 
 独立 Worker 自带四小时 Cron Trigger，部署后自动启用；北京时间每天 0、4、8、12、16、20 点运行，保持电脑关机也能执行。可在 Worker 的 Triggers 和 Logs 查看触发及失败记录。Cron 配置传播最多需要约 15 分钟。
 

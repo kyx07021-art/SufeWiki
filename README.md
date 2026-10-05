@@ -1,5 +1,7 @@
 # 上财 Wiki
 
+在线访问：[上财 Wiki](https://sufewiki.pages.dev)。
+
 面向上财学生的共建知识库。左侧分层目录，右侧连续正文；逐节编辑、新增条目、搜索、Markdown 预览、草稿、即时发布、冲突合并和全文导出。
 
 ## 本地启动
@@ -10,11 +12,11 @@
 npm.cmd install
 Copy-Item .env.example .env.local
 npm.cmd run build
-node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_soft_scorpion.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 migrations apply DB --local --config dist/server/wrangler.json --persist-to .wrangler/state
 npm.cmd run dev
 ```
 
-迁移只在首次创建本地数据库时执行一次。开发地址由终端打印，默认 `http://127.0.0.1:5173/`。本地数据库与对象存储位于被忽略的 `.wrangler/state`。
+每次拉取新增迁移后执行迁移命令；已执行的迁移会自动跳过。开发地址由终端打印，默认 `http://127.0.0.1:5173/`。本地数据库与对象存储位于被忽略的 `.wrangler/state`。
 
 ## 内容与协作
 
@@ -42,6 +44,7 @@ npm.cmd run dev
 | `GET /api/sections` | 返回完整 Wiki，供连续阅读 |
 | `POST /api/sections` | 新增章节 `{parentId,title,body}`，立即发布 |
 | `PUT /api/sections/:id` | 更新 `{title,body,revision}`；版本过期返回 409 |
+| `DELETE /api/sections/:id` | 删除 `{revision,mode}`，`mode` 为 `entry`（保留子条目）或 `subtree`；先保存恢复副本，版本过期返回 409 |
 | `POST /api/backups` | 为当前四小时槽建立一次不可覆盖快照 |
 | `GET /api/backups` | 仅维护者可列出或下载快照 |
 | `POST /api/restore` | 仅维护者可恢复指定快照，先保存救援副本 |
