@@ -1,5 +1,5 @@
 import { sql } from 'drizzle-orm';
-import { check, integer, primaryKey, sqliteTable, text, type AnySQLiteColumn } from 'drizzle-orm/sqlite-core';
+import { check, index, integer, primaryKey, sqliteTable, text, type AnySQLiteColumn } from 'drizzle-orm/sqlite-core';
 
 export const sections = sqliteTable('sections', {
   id: text('id').primaryKey(),
@@ -42,3 +42,25 @@ export const settings = sqliteTable('wiki_settings', {
   key: text('key').primaryKey(),
   value: text('value').notNull(),
 });
+
+export const browserSessions = sqliteTable('browser_sessions', {
+  id: text('id').primaryKey(),
+  voteAt: integer('vote_at').notNull().default(0),
+  commentAt: integer('comment_at').notNull().default(0),
+  writeNonce: text('write_nonce').notNull().default(''),
+});
+
+// Feedback follows stable entry IDs, so restoring or editing the document preserves it.
+export const sectionVotes = sqliteTable('section_votes', {
+  sectionId: text('section_id').notNull(),
+  browserId: text('browser_id').notNull().references(() => browserSessions.id),
+  vote: integer('vote').notNull(),
+}, table => [primaryKey({ columns: [table.sectionId, table.browserId] }), check('vote_value', sql`${table.vote} IN (-1, 0, 1)`)]);
+
+export const sectionComments = sqliteTable('section_comments', {
+  id: integer('id').primaryKey({ autoIncrement: true }),
+  sectionId: text('section_id').notNull(),
+  body: text('body').notNull(),
+  createdAt: text('created_at').notNull(),
+  deletedAt: text('deleted_at'),
+}, table => [index('comments_section').on(table.sectionId, table.id), check('comment_length', sql`length(${table.body}) BETWEEN 1 AND 2000`)]);
