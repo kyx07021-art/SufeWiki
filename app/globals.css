@@ -188,7 +188,8 @@ button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
 .eyebrow { color: #873846; font-size: 11px; letter-spacing: 1.5px; display: flex; align-items: center; gap: 8px; }
 .document-intro h1 { font-family: 'STSong', 'Songti SC', 'SimSun', serif; font-size: clamp(27px, 2.7vw, 39px); font-weight: 700; letter-spacing: 1px; margin: 15px 0; line-height: 1.45; }
 .document-intro > p { color: #788391; font-size: 13px; line-height: 1.9; max-width: 610px; }
-.document-meta { display: flex; gap: 13px; align-items: center; color: #87919d; font-size: 11px; margin: 23px 0 29px; }
+.document-meta { display: flex; flex-wrap: wrap; gap: 8px 13px; align-items: center; color: #87919d; font-size: 11px; margin: 23px 0 29px; }
+.document-meta span { white-space: nowrap; }
 .document-meta i { width: 3px; height: 3px; border-radius: 50%; background: #b6bec6; }
 .reader-notice { background: #f6f7f9; border: 1px solid #e9ecf0; border-radius: 7px; padding: 16px 19px; display: flex; align-items: center; gap: 14px; color: #8a7279; margin-bottom: 38px; }
 .reader-notice p { color: #7a8491; font-size: 11px; line-height: 1.9; margin: 0; flex: 1; }

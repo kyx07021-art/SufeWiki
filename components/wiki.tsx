@@ -37,7 +37,7 @@ function AddEntry({ onClick }: { onClick: () => void }) {
   return <button className="add-entry" onClick={() => { setOpenMobile(false); onClick(); }}><Plus size={15} />新增条目</button>;
 }
 
-export function Wiki({ initialSections }: { initialSections: Section[] }) {
+export function Wiki({ initialSections, todayEdits }: { initialSections: Section[]; todayEdits: number }) {
   const [sections, setSections] = useState(initialSections);
   const [editing, setEditing] = useState<Section | 'new' | null>(null);
   const [showGuide, setShowGuide] = useState(false);
@@ -125,7 +125,7 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
     <main id="wiki-content" className="wiki-main">
       <header className="topbar"><div><SidebarTrigger aria-label="展开或收起目录" /><span>校园知识库</span><ChevronRight size={13} /><span className="breadcrumb-current">{sections.find(section => section.id === active)?.title}</span></div><button className="guide-link" onClick={() => setShowGuide(true)}>贡献指南 <ArrowUpRight size={14} /></button></header>
       <div className="reading-surface">
-        <div className="document-intro"><div className="eyebrow"><GraduationCap size={15} />上海财经大学 · 学生共建</div><h1>上财生活，从这里查起。</h1><p>学习、生活、成长机会。把散落的经验整理在一起，让有用的信息更容易找到。</p><div className="document-meta"><span>{tree.length} 个主题</span><i /><span>{sections.length} 个条目</span><i /><span>任何同学都可以贡献</span></div></div>
+        <div className="document-intro"><div className="eyebrow"><GraduationCap size={15} />上海财经大学 · 学生共建</div><h1>上财生活，从这里查起。</h1><p>学习、生活、成长机会。把散落的经验整理在一起，让有用的信息更容易找到。</p><div className="document-meta"><span>{tree.length} 个主题</span><i /><span>{sections.length} 个条目</span><i /><span>今日 {todayEdits} 次编辑</span><i /><span>任何同学都可以贡献</span></div></div>
         <div className="reader-notice"><BookOpen size={18} /><p><strong>一份一起写的校园手册</strong><br />点击左侧目录定位，或向下连续阅读。空白条目等待你的经验。</p><button className="guide-link" onClick={() => setShowGuide(true)}>了解如何贡献 <ChevronRight size={14} /></button></div>
         <article>{flat.map(section => {
           const Heading = `h${Math.min(section.depth + 2, 6)}` as 'h2';

@@ -5,6 +5,15 @@ import { storeSnapshot } from './snapshot-store';
 
 const columns = 'id, parent_id AS parentId, title, body, position, revision, updated_at AS updatedAt';
 
+export async function countTodayEdits() {
+  const day = new Date(Date.now() + 8 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const start = new Date(`${day}T00:00:00+08:00`);
+  const end = new Date(start.getTime() + 24 * 60 * 60 * 1000);
+  const result = (await getDb().prepare('SELECT COUNT(*) AS count FROM revisions WHERE saved_at >= ? AND saved_at < ?')
+    .bind(start.toISOString(), end.toISOString()).first<{ count: number }>())!;
+  return result.count;
+}
+
 export async function listSections(): Promise<Section[]> {
   const db = getDb();
   const { results } = await db.prepare(`SELECT ${columns} FROM sections ORDER BY position`).all<Section>();
