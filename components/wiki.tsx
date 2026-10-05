@@ -11,12 +11,17 @@ import { toast } from 'sonner';
 import guideText from '@/content/contributing.md?raw';
 import { exportMarkdown, flattenTree, wikiTree, type Section, type WikiNode } from '@/lib/wiki';
 
-function Outline({ nodes, active, query }: { nodes: WikiNode[]; active: string; query: string }) {
+const outlineStorageKey = 'sufe-wiki:outline-open';
+
+function Outline({ nodes, active, expanded, onToggle }: {
+  nodes: WikiNode[]; active: string; expanded: Record<string, boolean>;
+  onToggle: (id: string, open: boolean) => void;
+}) {
   const { setOpenMobile } = useSidebar();
   return <ul className="wiki-outline">{nodes.map(node => <li key={node.id}>
-    {node.children.length ? <details open={node.depth === 0 || !!query}>
+    {node.children.length ? <details open={expanded[node.id] ?? false} onToggle={event => onToggle(node.id, event.currentTarget.open)}>
       <summary><ChevronRight size={13} /><a href={`#${node.id}`} className={active === node.id ? 'current' : ''} onClick={() => setOpenMobile(false)}>{node.title}</a><span>{node.children.length}</span></summary>
-      <Outline nodes={node.children} active={active} query={query} />
+      <Outline nodes={node.children} active={active} expanded={expanded} onToggle={onToggle} />
     </details> : <a href={`#${node.id}`} className={`outline-leaf ${active === node.id ? 'current' : ''}`} onClick={() => setOpenMobile(false)}><span className={`entry-dot ${node.body ? 'filled' : ''}`} />{node.title}</a>}
   </li>)}</ul>;
 }
@@ -36,10 +41,17 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
   const [editing, setEditing] = useState<Section | 'new' | null>(null);
   const [showGuide, setShowGuide] = useState(false);
   const [query, setQuery] = useState('');
+  const [outlineOpen, setOutlineOpen] = useState<Record<string, boolean> | null>(null);
   const [active, setActive] = useState(sections[0]?.id ?? '');
   const tree = useMemo(() => wikiTree(sections), [sections]);
   const flat = useMemo(() => flattenTree(tree), [tree]);
   const matches = flat.filter(section => `${section.title}\n${section.body}`.toLowerCase().includes(query.toLowerCase()));
+  useEffect(() => {
+    setOutlineOpen(JSON.parse(localStorage.getItem(outlineStorageKey) ?? '{}'));
+  }, []);
+  useEffect(() => {
+    if (outlineOpen !== null) localStorage.setItem(outlineStorageKey, JSON.stringify(outlineOpen));
+  }, [outlineOpen]);
   useEffect(() => {
     function shortcut(event: KeyboardEvent) {
       if (event.key === '/' && !(event.target instanceof HTMLInputElement) && !(event.target instanceof HTMLTextAreaElement)) {
@@ -106,7 +118,7 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
       <SidebarHeader className="brand-area"><a className="brand" href="#"><span className="brand-mark">财</span><span>上财 Wiki<small>SUFE · STUDENT WIKI</small></span></a><p>把校园经验，留给下一个你。</p></SidebarHeader>
       <div className="search-box"><Search size={16} /><input aria-label="搜索目录与正文" placeholder="搜索目录与正文…" value={query} onChange={event => setQuery(event.target.value)} /><kbd>/</kbd></div>
       <div className="outline-label"><span>{query ? `搜索结果 · ${matches.length}` : '内容目录'}</span><BookOpen size={14} /></div>
-      <SidebarContent className="outline-scroll">{query ? <SearchResults matches={matches} onSelect={() => setQuery('')} /> : <Outline nodes={tree} active={active} query={query} />}</SidebarContent>
+      <SidebarContent className="outline-scroll">{query ? <SearchResults matches={matches} onSelect={() => setQuery('')} /> : outlineOpen && <Outline nodes={tree} active={active} expanded={outlineOpen} onToggle={(id, open) => setOutlineOpen(current => ({ ...current, [id]: open }))} />}</SidebarContent>
       <SidebarFooter className="sidebar-note"><AddEntry onClick={() => setEditing('new')} /><span className="community-dot" />学生共建 · 持续更新<small>非学校官方网站</small></SidebarFooter>
     </Sidebar>
     <main id="wiki-content" className="wiki-main">
