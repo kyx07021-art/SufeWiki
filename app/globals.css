@@ -205,11 +205,34 @@ button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
 .depth-1 { margin-top: 32px; }
 .edit-link { font-size: 11px; color: #8c96a2; display: flex; gap: 4px; align-items: center; white-space: nowrap; padding: 5px; border-radius: 3px; }
 .edit-link:hover { color: var(--primary); background: #f7edf0; }
-.empty-section { padding: 11px 0; margin: 0; border-bottom: 1px dashed #e8ebef; display: flex; align-items: center; gap: 16px; }
+.empty-section { padding: 11px 0; margin: 0; border-bottom: 1px dashed #e8ebef; }
 .empty-section .section-title { flex: 1; }
 .empty-section h3, .empty-section h4 { font-size: 13px; font-weight: 400; color: #66717f; }
 .empty-copy { font-size: 10px; color: #959eaa; }
 .empty-copy span { display: none; }
+.empty-copy { margin-top: 6px; }
+.entry-feedback { margin-top: 10px; }
+.feedback-bar { display: flex; align-items: center; gap: 8px; }
+.feedback-bar button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 36px; padding: 0 9px; border: 1px solid transparent; border-radius: 5px; color: #677483; font-size: 12px; }
+.feedback-bar button:hover { background: #f7edf0; color: var(--primary); }
+.feedback-bar button[aria-pressed="true"], .feedback-bar button[aria-expanded="true"] { background: #f7edf0; border-color: #dfc8cf; color: var(--primary); }
+.feedback-bar button:focus-visible, .comments-more:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.comments-panel { margin-top: 10px; padding: 16px 18px; border: 1px solid var(--border); border-radius: 6px; background: #fafbfc; }
+.comments-status { font-size: 12px; color: #677483; line-height: 1.8; }
+.comment-list { list-style: none; margin: 0; padding: 0; }
+.comment-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.comment-list li:first-child { padding-top: 0; }
+.comment-list time { color: #677483; font-size: 11px; }
+.comment-list p { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; line-height: 1.85; margin-top: 5px; color: #4e5968; }
+.comments-more { color: var(--primary); font-size: 12px; padding: 12px 0; }
+.comment-form { margin-top: 18px; }
+.comment-form label { display: block; font-size: 12px; color: #4e5968; margin-bottom: 8px; }
+.comment-form textarea { width: 100%; display: block; resize: vertical; min-height: 90px; border: 1px solid var(--border); border-radius: 5px; background: white; padding: 10px 12px; font-size: 13px; line-height: 1.8; }
+.comment-form textarea:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.comment-form > div { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 10px; }
+.comment-form > div > span { font-size: 11px; color: #677483; }
+.comment-error { color: #a14540; font-size: 12px; line-height: 1.8; margin-top: 10px; }
+@media(max-width: 767px) { .feedback-bar button { min-height: 44px; } .comments-panel { padding: 14px; } .comment-form textarea { font-size: 16px; } }
 .wiki-prose { font-size: 14px; line-height: 1.95; color: #4e5968; overflow-wrap: anywhere; }
 .wiki-prose p { margin: 13px 0; }
 .wiki-prose a { color: #8b4050; text-decoration: underline; text-underline-offset: 3px; }

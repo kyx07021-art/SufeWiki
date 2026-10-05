@@ -6,6 +6,7 @@ import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarProvider,
 import { Markdown } from './markdown';
 import { Editor } from './editor';
 import { Guide } from './guide';
+import { EntryFeedback, FeedbackProvider } from './entry-feedback';
 import { Toaster } from '@/components/ui/sonner';
 import { toast } from 'sonner';
 import guideText from '@/content/contributing.md?raw';
@@ -112,7 +113,7 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
     return () => observer.disconnect();
   }, [sections]);
 
-  return <SidebarProvider style={{ '--sidebar-width': '304px' } as CSSProperties}>
+  return <FeedbackProvider><SidebarProvider style={{ '--sidebar-width': '304px' } as CSSProperties}>
     <a href="#wiki-content" className="skip-link">跳转到正文</a>
     <Sidebar className="wiki-sidebar">
       <SidebarHeader className="brand-area"><a className="brand" href="#"><span className="brand-mark">财</span><span>上财 Wiki<small>SUFE · STUDENT WIKI</small></span></a><p>把校园经验，留给下一个你。</p></SidebarHeader>
@@ -131,6 +132,7 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
           return <section key={section.id} id={section.id} data-wiki-section className={`wiki-section depth-${section.depth} ${!section.body && !section.children.length ? 'empty-section' : ''}`}>
             <div className="section-title"><Heading>{section.title}</Heading><div className="section-actions"><button className="anchor-link" title={`复制${section.title}的链接`} onClick={() => navigator.clipboard.writeText(`${location.origin}/#${section.id}`).then(() => toast.success('条目链接已复制')).catch(() => toast.error('复制失败，可复制浏览器中的条目地址'))}><LinkIcon size={12} /></button><button className="edit-link" title={`编辑${section.title}`} onClick={() => setEditing(section)}><PenLine size={13} />编辑</button></div></div>
             {section.body ? <Markdown>{section.body}</Markdown> : !section.children.length && <p className="empty-copy">待补充 <span>· 欢迎分享你的经验</span></p>}
+            <EntryFeedback id={section.id} title={section.title} />
           </section>;
         })}</article>
         <footer id="contribute" className="contribution-card"><Plus size={23} /><div><h2>这份 Wiki，缺的可能就是你的经验。</h2><p>从补充一个链接、修正一句说明开始。编辑后直接发布，共同维护。</p><button onClick={() => setEditing('new')}>补充一个条目 <ArrowUpRight size={13} /></button></div></footer>
@@ -144,6 +146,6 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
     }} />}
     {showGuide && <Guide text={guideText} onClose={() => setShowGuide(false)} />}
     <Toaster position="bottom-right" theme="light" />
-  </SidebarProvider>;
+  </SidebarProvider></FeedbackProvider>;
 }
 
