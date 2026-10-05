@@ -37,3 +37,8 @@ export const snapshotSections = sqliteTable('wiki_snapshot_sections', {
   ordinal: integer('ordinal').notNull(),
   section: text('section').notNull(),
 }, table => [primaryKey({ columns: [table.key, table.ordinal] })]);
+
+export const settings = sqliteTable('wiki_settings', {
+  key: text('key').primaryKey(),
+  value: text('value').notNull(),
+});

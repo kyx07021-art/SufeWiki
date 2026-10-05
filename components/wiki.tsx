@@ -36,7 +36,7 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
   const [editing, setEditing] = useState<Section | 'new' | null>(null);
   const [showGuide, setShowGuide] = useState(false);
   const [query, setQuery] = useState('');
-  const [active, setActive] = useState(sections[0].id);
+  const [active, setActive] = useState(sections[0]?.id ?? '');
   const tree = useMemo(() => wikiTree(sections), [sections]);
   const flat = useMemo(() => flattenTree(tree), [tree]);
   const matches = flat.filter(section => `${section.title}\n${section.body}`.toLowerCase().includes(query.toLowerCase()));
@@ -125,7 +125,11 @@ export function Wiki({ initialSections }: { initialSections: Section[] }) {
         <div className="page-footer"><span>上财 Wiki · 由学生共同维护</span><button onClick={download}><Download size={12} />下载正文</button><a href="#">回到顶部 ↑</a></div>
       </div>
     </main>
-    {editing && <Editor key={editing === 'new' ? 'new' : editing.id} section={editing === 'new' ? null : editing} sections={sections} onClose={() => setEditing(null)} onPublished={published} />}
+    {editing && <Editor key={editing === 'new' ? 'new' : editing.id} section={editing === 'new' ? null : editing} sections={sections} onClose={() => setEditing(null)} onPublished={published} onDeleted={(remaining, count) => {
+      setSections(remaining); setEditing(null); setActive(remaining[0]?.id ?? '');
+      history.replaceState(null, '', '/');
+      toast.success(`已删除 ${count} 个条目，恢复副本已保存。`);
+    }} />}
     {showGuide && <Guide text={guideText} onClose={() => setShowGuide(false)} />}
     <Toaster position="bottom-right" theme="light" />
   </SidebarProvider>;
