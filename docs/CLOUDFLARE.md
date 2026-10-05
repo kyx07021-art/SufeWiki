@@ -29,7 +29,7 @@
 
 部署脚本先应用尚未执行的 D1 迁移，再上传 Worker。构建使用的 API token 必须具备本账号的 **D1 Edit、Workers Scripts Edit** 权限，以及 Cloudflare 构建要求的账号读取权限。若自动生成的构建 token 缺少 D1 权限，在 Builds 中选择具备这些权限的自定义 token；不要把 token 提交到 GitHub。
 
-点击 **Retry build / 重试构建**。部署成功后访问控制台显示的 `workers.dev` 地址；也可以之后绑定自有域名。首次读取空数据库会导入仓库内的 100 个条目。后续代码部署保留在线编辑内容。
+点击 **Retry build / 重试构建**。部署成功后访问控制台显示的 `workers.dev` 地址；也可以之后绑定自有域名。首次读取空数据库会导入仓库内的种子条目。后续代码部署保留在线编辑内容。
 
 这是动态网站，后台使用 Workers。下面的 Pages 入口通过内部 Service binding 调用同一个后台；只上传 `dist/client` 到静态 Pages 无法保存贡献。
 

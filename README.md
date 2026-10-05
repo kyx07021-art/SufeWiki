@@ -20,9 +20,11 @@ npm.cmd run dev
 
 ## 内容与协作
 
-- [整理后的正文](content/wiki.md)：只来自原稿正文，不包含上半部分 AI 资料。
+- [整理后的正文](content/wiki.md)：原稿正文与经过来源核对的补充资料，不包含原稿上半部分 AI 资料和协作聊天。
 - [Wiki 规范与贡献路径](content/contributing.md)：同时出现在网站的「贡献指南」。
 - [清理记录](docs/CONTENT.md)：说明删改范围和未核实信息。
+- [资料覆盖记录](docs/content-sources.json)：记录补充资料的公开出处、对应词条和未采用原因。
+- [内容缺口](docs/CONTENT_GAPS.md)：后续需要新增词条或补充信息的方向。
 - [备份、恢复与 GitHub 操作](docs/MAINTENANCE.md)。
 
 在线修改保存在 D1；Git 中的种子文档只初始化空数据库。更新代码不会覆盖学生的在线贡献。
@@ -62,4 +64,4 @@ npm.cmd run build
 
 依照项目要求，不编写测试代码。通过类型检查、构建与实际功能操作确认实现。
 
-当前部署使用 Sites，绑定 D1 `DB` 和 R2 `BUCKET`。后台调度每四小时触发快照，访问范围独立于代码发布。维护者邮箱在托管环境配置为 `ADMIN_EMAIL`；不要把 `.env.local` 提交到仓库。
+当前公开部署使用 Cloudflare Pages 入口和 Worker 服务，内容与版本备份保存在 D1，无需 R2。后台调度每四小时保存快照；恢复操作使用维护密钥。不要把本地环境文件和数据库备份提交到仓库。

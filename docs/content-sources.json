@@ -1,0 +1,3138 @@
+{
+  "date": "2026-10-05",
+  "scope": "上财wiki空间166份资料；按照站点现有六个主题整理。",
+  "verification": "检查公开学校网页和附件，核对适用学段、项目及年份。HTTP读取成功仅表示来源可取得，不代表历史制度永久有效；未拨打电话或进入个人办事系统。retrievedStatus为空的补充公开来源另行浏览核对。",
+  "records": [
+    {
+      "title": "2027届本科生推免推荐结果公示（已结束）",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/1f/23/c5127a270115/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-0fb3a284b4e6",
+          "path": "成长机会 / 保研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2027硕士初试六学院科目调整通知",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7992",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2027年滴水湖金融硕士初试科目调整",
+      "sources": [
+        {
+          "url": "https://dafi.sufe.edu.cn/mf/e9/df/c12863a256479/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2027年日语语言文学研究方向招生方式",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7995",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2027年会计学院学术硕士招生调整",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/8002",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年国家公派研究生校内选拔历史安排",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7964",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "2025级应用统计硕士各方向培养计划",
+      "sources": [
+        {
+          "url": "https://ssds.sufe.edu.cn/ce/36/c1546a249398/page.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://ssds.sufe.edu.cn/_upload/article/files/ff/ff/217b37d44b7bb5ece96d6aaa9cd1/9a53ff63-88ce-4e2f-8d3a-ea3004afe0bf.pdf",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://ssds.sufe.edu.cn/_upload/article/files/ff/ff/217b37d44b7bb5ece96d6aaa9cd1/b56e35a0-e3f3-4d28-bbb2-69fbebc27cd5.pdf",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://ssds.sufe.edu.cn/_upload/article/files/ff/ff/217b37d44b7bb5ece96d6aaa9cd1/2dbbc5fb-e179-4706-a4b4-548839ae46dd.pdf",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://ssds.sufe.edu.cn/_upload/article/files/ff/ff/217b37d44b7bb5ece96d6aaa9cd1/db889ab9-a0d9-44f8-bfec-4fa0594f4bb6.pdf",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://ssds.sufe.edu.cn/_upload/article/files/ff/ff/217b37d44b7bb5ece96d6aaa9cd1/32f85334-e5bc-4676-ac46-89f64ca7b6dd.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "研究生免修免考申请",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7255",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "上海财经大学2026年博士研究生招生考试报名公告",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7934",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "上海财经大学2025年硕士研究生招生复试录取办法",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7813",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年全国硕士研究生招生上海财经大学报考点（代码：3109）报名公告",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7898",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上海财经大学2026年硕士研究生招生考试报名公告",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7901",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "13044682-f9ab-4fe6-9e1f-3cdef8a4800d",
+          "path": "成长机会 / 考研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上海财经大学研究生证管理规定",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/5440",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "关于上海财经大学2027年接收优秀应届本科毕业生免试攻读研究生（含直博生）预报名的通知",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/8022",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-0fb3a284b4e6",
+          "path": "成长机会 / 保研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于2027年本校推免生使用“推免服务系统”申请研究生接收的操作说明",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/8029",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-0fb3a284b4e6",
+          "path": "成长机会 / 保研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2027 年补充推免接收通知（本轮已截止）",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/8035",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-0fb3a284b4e6",
+          "path": "成长机会 / 保研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2027 年推免服务系统操作说明",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/8032",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-0fb3a284b4e6",
+          "path": "成长机会 / 保研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026至2027学年MBA学宿费与电子票据通知",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/MBA/Detail/28101",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "主校区地图与公共设施定位",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/dt/list.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://www.sufe.edu.cn/_upload/article/images/79/4b/03c409194b5786bc93770a20e38c/18260c2b-bb57-4f67-be96-4f88df65bd52_d.jpg",
+          "retrievedStatus": null
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ee9e79b4234d",
+          "path": "生活服务 / 交通"
+        },
+        {
+          "id": "90332805-e21e-4efc-92aa-655fe332dd3c",
+          "path": "生活服务 / 校园地图"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026中秋国庆校史馆商学博物馆开放通知",
+      "sources": [
+        {
+          "url": "https://archives.sufe.edu.cn/22/41/c3149a270913/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "b08d3d7d-420a-4714-ba3b-bf958979d45f",
+          "path": "校园文化 / 校史馆"
+        },
+        {
+          "id": "955087d4-f9c1-421e-9daf-976b484a53f6",
+          "path": "校园文化 / 商学博物馆"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "三门路园区物业与洗衣联系渠道",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20013/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-039ad01211a3",
+          "path": "生活服务 / 住宿 / 宿舍楼介绍"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学校章程中的学生权利与治理",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/xxzc/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-b0c6c09e10fc",
+          "path": "学校简介"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校园物业责任区域与咨询电话",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20009/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-a2c0f2191e76",
+          "path": "生活服务 / 住宿"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "教务处办事职责与联系渠道",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/5143/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-c6c5c70b2804",
+          "path": "本科生校内学习"
+        },
+        {
+          "id": "s-36556df45e63",
+          "path": "本科生校内学习 / 教材"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "各校区周边地铁交通",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/zbjt/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ee9e79b4234d",
+          "path": "生活服务 / 交通"
+        },
+        {
+          "id": "s-e87ee091a14c",
+          "path": "生活服务 / 交通 / 地铁"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校园访客入校公开说明",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/fkxz/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "71fb73af-f8fb-4d7a-8c07-488496bfac67",
+          "path": "生活服务 / 访客入校"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学生申诉处理细则 2017施行版",
+      "sources": [
+        {
+          "url": "https://law.sufe.edu.cn/0e/d0/c7986a134864/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "f146d9fb-112b-465e-ab17-3503a1265720",
+          "path": "生活服务 / 学生申诉"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学校常用办事电话与部门导航",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/13652/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2fe1e1c210a3",
+          "path": "生活服务"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "保卫值班与治安消防户政联系渠道",
+      "sources": [
+        {
+          "url": "https://baoweichu.sufe.edu.cn/881/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "22513084-6a2f-4607-a8c9-d214711344ec",
+          "path": "生活服务 / 校园安全"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校园电动自行车通行牌申领指南",
+      "sources": [
+        {
+          "url": "https://baoweichu.sufe.edu.cn/1b/6d/c884a269165/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-4b01999c9515",
+          "path": "生活服务 / 交通 / 自行车"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "海外交换访问返校报到历史流程",
+      "sources": [
+        {
+          "url": "https://ieco.sufe.edu.cn/76/59/c1378a30297/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "e786819d-27eb-400b-8613-e04dba57a938",
+          "path": "成长机会 / 国际交流 / 返校报到"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆研讨室与学习共享空间",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/kjyy/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "a259f301-d67e-4bfd-bfcb-1c837018fb30",
+          "path": "生活服务 / 图书馆 / 空间预约"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书污损遗失与赔偿办理",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8367/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "39c122e4-46ea-4e8d-9fd9-e8711358f75e",
+          "path": "生活服务 / 图书馆 / 图书赔偿"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书借期续借与预约规则",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8365/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "f640b9a6-de6a-4b09-bdc5-6b5b2d927c34",
+          "path": "生活服务 / 图书馆 / 借书"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2024年心理咨询预约与取消指南",
+      "sources": [
+        {
+          "url": "https://gongkai.sufe.edu.cn/6e/e1/c13797a224993/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "8b628677-8801-4410-ad8e-0b3e4f6aace4",
+          "path": "生活服务 / 心理咨询"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财图书馆馆舍与学习空间概览",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8339/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-3ef46ddc9d5c",
+          "path": "生活服务 / 图书馆"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆办事咨询与服务联系渠道",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8346/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-3ef46ddc9d5c",
+          "path": "生活服务 / 图书馆"
+        },
+        {
+          "id": "f640b9a6-de6a-4b09-bdc5-6b5b2d927c34",
+          "path": "生活服务 / 图书馆 / 借书"
+        },
+        {
+          "id": "a259f301-d67e-4bfd-bfcb-1c837018fb30",
+          "path": "生活服务 / 图书馆 / 空间预约"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "国际教育学院听说工作室服务介绍",
+      "sources": [
+        {
+          "url": "https://iec.sufe.edu.cn/tsgzs/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "8b628677-8801-4410-ad8e-0b3e4f6aace4",
+          "path": "生活服务 / 心理咨询"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2024年上财体育场馆位置与开放说明",
+      "sources": [
+        {
+          "url": "https://sports.sufe.edu.cn/63/a8/c1930a222120/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-b4f43eea0c7c",
+          "path": "生活服务 / 运动场馆"
+        },
+        {
+          "id": "s-976eccc68084",
+          "path": "生活服务 / 运动场馆 / 健身房"
+        },
+        {
+          "id": "s-eff4052f78e4",
+          "path": "生活服务 / 运动场馆 / 篮球场"
+        },
+        {
+          "id": "s-f70cac1197fb",
+          "path": "生活服务 / 运动场馆 / 综合体育馆"
+        },
+        {
+          "id": "s-c7ea12ea53c8",
+          "path": "生活服务 / 运动场馆 / 羽毛球"
+        },
+        {
+          "id": "s-f49f6e85c193",
+          "path": "生活服务 / 运动场馆 / 网球场"
+        },
+        {
+          "id": "s-939cdeddbc26",
+          "path": "生活服务 / 运动场馆 / 武东操场"
+        },
+        {
+          "id": "s-1bf1e717717a",
+          "path": "生活服务 / 运动场馆 / 游泳馆"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学生宿舍调换退宿与假期留宿指南",
+      "sources": [
+        {
+          "url": "https://gongkai.sufe.edu.cn/25/17/c453a206103/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-d3ed89c72bf6",
+          "path": "生活服务 / 住宿 / 生活规范"
+        },
+        {
+          "id": "s-f02b33650adc",
+          "path": "生活服务 / 住宿 / 退宿"
+        },
+        {
+          "id": "s-3ff7e15a906c",
+          "path": "本科生校内学习 / 毕业 / 延后毕业"
+        },
+        {
+          "id": "f9777414-e896-4c76-b276-4bade5166610",
+          "path": "生活服务 / 住宿 / 换宿"
+        },
+        {
+          "id": "2fc30a34-f18c-472b-bdfc-d8fa0e6c7886",
+          "path": "生活服务 / 住宿 / 假期留宿"
+        },
+        {
+          "id": "8817d9fb-8dde-4730-b23c-cbd0052a2b2f",
+          "path": "本科生校内学习 / 学籍 / 复学"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "假期离沪医保备案与凭证使用",
+      "sources": [
+        {
+          "url": "https://yljk.sufe.edu.cn/8b/a8/c1401a232360/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "cc1bdb1a-0534-425c-b31e-361c547f17eb",
+          "path": "学生优惠 / 医疗保险 / 异地就医"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "中山北一路校区周边就医指南",
+      "sources": [
+        {
+          "url": "https://yljk.sufe.edu.cn/50/8d/c1420a217229/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-975c29f381a2",
+          "path": "生活服务 / 医疗 / 周边医院"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校内门诊就诊流程与急诊分流",
+      "sources": [
+        {
+          "url": "https://yljk.sufe.edu.cn/10/90/c1401a200848/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-91fec6429758",
+          "path": "生活服务 / 医疗 / 校内医疗服务"
+        },
+        {
+          "id": "ff32b515-f1b3-4a43-a86d-ba253946ceee",
+          "path": "学生优惠 / 医疗保险 / 大学生医保"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财企业微信绑定与常用服务",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/e1/b4/c19675a254388/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2fe1e1c210a3",
+          "path": "生活服务"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财门户与移动办事入口说明",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/df/0c/c19675a253708/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2fe1e1c210a3",
+          "path": "生活服务"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "统一认证账号激活与密码找回",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/df/0d/c19675a253709/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2fe1e1c210a3",
+          "path": "生活服务"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学生邮箱开通与毕业前备份指南",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/df/0e/c19675a253710/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "4c042837-11bd-48e8-acd0-b4055975a827",
+          "path": "学生优惠 / 校内资源 / 学生邮箱"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学生宿舍有线联网与报修指南",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/df/0a/c19675a253706/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-e83a2fd62199",
+          "path": "学生优惠 / 网络宽带"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校园一卡通 2.0 与补卡信息核对",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/17/10/c19675a268048/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-02b1300ca997",
+          "path": "生活服务 / 校园卡"
+        },
+        {
+          "id": "s-9f73b14484a2",
+          "path": "生活服务 / 校园卡 / 使用场所"
+        },
+        {
+          "id": "s-441d501a3c7d",
+          "path": "生活服务 / 校园卡 / 充值"
+        },
+        {
+          "id": "s-aeea43ab09a4",
+          "path": "生活服务 / 校园卡 / 补办"
+        },
+        {
+          "id": "s-139ad4a08608",
+          "path": "生活服务 / 住宿 / 洗澡"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校外访问 VPN 使用指南",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/df/08/c19675a253704/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-e83a2fd62199",
+          "path": "学生优惠 / 网络宽带"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校园设备与宿舍设施报修指南",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20007/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-139ad4a08608",
+          "path": "生活服务 / 住宿 / 洗澡"
+        },
+        {
+          "id": "s-e7ace1271ee9",
+          "path": "生活服务 / 住宿 / 饮水"
+        },
+        {
+          "id": "d371790b-eb8f-4f34-8829-a74fb1363d6d",
+          "path": "生活服务 / 住宿 / 宿舍报修"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校园快递驿站与收发室指南",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20012/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "0d5056df-5e76-439e-87f4-67fe6a2a4c9b",
+          "path": "生活服务 / 快递"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "宿舍电费充值与校园能源服务",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20010/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-4b01999c9515",
+          "path": "生活服务 / 交通 / 自行车"
+        },
+        {
+          "id": "b2a53e6a-2634-49e1-b323-bb2eb20cbbbf",
+          "path": "生活服务 / 住宿 / 电费"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆自助云打印指南",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8330/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "724f23ae-5fcb-4dff-8072-f89f437bd3a6",
+          "path": "生活服务 / 图书馆 / 云打印"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "馆际互借与文献传递申请指南",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8327/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-e339d522cff7",
+          "path": "本科生校内学习 / 教材 / 电子教材"
+        },
+        {
+          "id": "s-84a0f94d2d4b",
+          "path": "成长机会 / 科研"
+        },
+        {
+          "id": "b13e2b57-1890-4b4e-a0f0-658216ecebec",
+          "path": "生活服务 / 图书馆 / 文献传递"
+        },
+        {
+          "id": "0ba85381-9906-4549-b456-a71a00e5876a",
+          "path": "生活服务 / 图书馆 / 馆际互借"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆借阅权限与证件办理",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8354/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-aeea43ab09a4",
+          "path": "生活服务 / 校园卡 / 补办"
+        },
+        {
+          "id": "f640b9a6-de6a-4b09-bdc5-6b5b2d927c34",
+          "path": "生活服务 / 图书馆 / 借书"
+        },
+        {
+          "id": "670869ca-a025-49b8-805d-0c1fc6ea66d2",
+          "path": "学生优惠 / 校内资源 / 校友卡"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书借还与还书箱办理指南",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8351/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-048a19cb7539",
+          "path": "本科生校内学习 / 教材 / 纸质教材"
+        },
+        {
+          "id": "a8cb8dc8-8f92-45af-8ce2-b1f40280795d",
+          "path": "生活服务 / 图书馆 / 还书"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "后勤社区浴室与洗衣服务",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20011/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-039ad01211a3",
+          "path": "生活服务 / 住宿 / 宿舍楼介绍"
+        },
+        {
+          "id": "s-8955b16c85f2",
+          "path": "生活服务 / 住宿 / 洗衣"
+        },
+        {
+          "id": "s-139ad4a08608",
+          "path": "生活服务 / 住宿 / 洗澡"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆续借及预约",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8353/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-048a19cb7539",
+          "path": "本科生校内学习 / 教材 / 纸质教材"
+        },
+        {
+          "id": "f52677c5-044c-4b27-92d5-3b638f7803aa",
+          "path": "生活服务 / 图书馆 / 续借"
+        },
+        {
+          "id": "8628cb7c-7a42-4fd8-898e-6f4b8d46fa9d",
+          "path": "生活服务 / 图书馆 / 图书预约"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学生校园无线联网指南",
+      "sources": [
+        {
+          "url": "https://nic.sufe.edu.cn/e1/58/c19675a254296/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-e83a2fd62199",
+          "path": "学生优惠 / 网络宽带"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026 年教务处暑期服务安排（历史）",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/15/84/c5127a267652/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "未采用",
+      "entries": [],
+      "note": "临时暑期值班已结束，不作为常年办公时间发布。"
+    },
+    {
+      "title": "后勤餐饮服务",
+      "sources": [
+        {
+          "url": "https://hq.sufe.edu.cn/20008/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-a581f3444712",
+          "path": "生活服务 / 餐饮 / 食堂"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆服务时间",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8350/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "27ff1a6d-3690-45b2-8a3c-ba5b717f0402",
+          "path": "生活服务 / 图书馆 / 开放时间"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上海财经大学2025级本科新生入学须知",
+      "sources": [
+        {
+          "url": "https://m.thepaper.cn/newsDetail_forward_31311191",
+          "retrievedStatus": null
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "e957fcce-7fcf-4ae2-b212-c26b453d93ce",
+          "path": "本科生校内学习 / 新生报到"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "来华留学生申请报到及生活常见问题",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/9640/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "143d51d0-e49e-4aef-b06d-1692501ab921",
+          "path": "成长机会 / 国际交流 / 国际学生报到"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "国际文化交流学院招生接待与联系渠道",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/9639/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "143d51d0-e49e-4aef-b06d-1692501ab921",
+          "path": "成长机会 / 国际交流 / 国际学生报到"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "国际学生中山北一路与三门路住宿说明",
+      "sources": [
+        {
+          "url": "https://intlstu.sufe.edu.cn/2b/27/c12478a207655/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "4f70f0d1-f657-4413-98cf-c62497f538b2",
+          "path": "生活服务 / 住宿 / 国际学生宿舍"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "国际学生演讲社团公开介绍",
+      "sources": [
+        {
+          "url": "https://intlstu.sufe.edu.cn/32/b0/c12479a209584/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-6842fc3c9aec",
+          "path": "校园文化 / 社团"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "来华留学生校外教学实习 2019年修订细则",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/44/ab/c9662a148651/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "8ed3b585-77aa-4629-b2d9-51e5258f4874",
+          "path": "成长机会 / 实习 / 国际学生实习"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "来华留学生保险及理赔 2018年修订说明",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/44/af/c9662a148655/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "33040bc0-d367-4b89-8c91-20f55875d0d1",
+          "path": "成长机会 / 国际交流 / 国际学生保险"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "来华留学生体检与验证 2019年修订说明",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/44/ae/c9662a148654/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "57e836fd-7d55-4626-8a77-07a6bba9daaa",
+          "path": "成长机会 / 国际交流 / 体检验证"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "来华留学生校外住宿登记 2015年修订说明",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/44/ad/c9662a148653/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "9e27bc3a-a9fe-4dbb-a3ff-d18af83689b1",
+          "path": "成长机会 / 国际交流 / 住宿登记"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "来华留学生签证与居留办理 2019年修订说明",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/44/ac/c9662a148652/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "c7a106b5-a959-4b82-9117-6101e62df4b5",
+          "path": "成长机会 / 国际交流 / 居留许可"
+        },
+        {
+          "id": "c7ed95a2-8576-4735-b908-99760b7cf8ae",
+          "path": "成长机会 / 国际交流 / 签证"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026至2027学年海外交流申请与返校问答",
+      "sources": [
+        {
+          "url": "https://ieco.sufe.edu.cn/e5/97/c18858a255383/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-66d44c9c62f4",
+          "path": "本科生校内学习 / 培养方案 / 体育"
+        },
+        {
+          "id": "s-d2c472b0564b",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 境外学习"
+        },
+        {
+          "id": "s-e505a21bb604",
+          "path": "本科生校内学习 / 考试 / 缓考"
+        },
+        {
+          "id": "02a22e0f-d6c0-4be7-879c-a1174280cbd1",
+          "path": "成长机会 / 国际交流 / 境外交流"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "保卫处公共场所物品防盗提示",
+      "sources": [
+        {
+          "url": "https://baoweichu.sufe.edu.cn/ab/e2/c882a44002/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "22513084-6a2f-4607-a8c9-d214711344ec",
+          "path": "生活服务 / 校园安全"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "保卫处冒充教授汇款诈骗提示",
+      "sources": [
+        {
+          "url": "https://baoweichu.sufe.edu.cn/ab/e4/c882a44004/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "22513084-6a2f-4607-a8c9-d214711344ec",
+          "path": "生活服务 / 校园安全"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "医中心门诊与应急值班服务 2025年公告",
+      "sources": [
+        {
+          "url": "https://yljk.sufe.edu.cn/8b/73/c1401a232307/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-91fec6429758",
+          "path": "生活服务 / 医疗 / 校内医疗服务"
+        },
+        {
+          "id": "s-975c29f381a2",
+          "path": "生活服务 / 医疗 / 周边医院"
+        },
+        {
+          "id": "s-66d44c9c62f4",
+          "path": "本科生校内学习 / 培养方案 / 体育"
+        },
+        {
+          "id": "ff32b515-f1b3-4a43-a86d-ba253946ceee",
+          "path": "学生优惠 / 医疗保险 / 大学生医保"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "金融学院2026届毕业生党员关系转接说明",
+      "sources": [
+        {
+          "url": "https://sof.sufe.edu.cn/0a/bf/c7804a264895/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "5e86eccb-db02-4e81-a7c1-c6a24a916bf6",
+          "path": "成长机会 / 党组织"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026级非全日制MBA综合精英班报到通知",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/MBA/Detail/28220",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "2026年本科招生章程与入学资格复查",
+      "sources": [
+        {
+          "url": "https://zs.sufe.edu.cn/05/64/c3337a263524/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "e957fcce-7fcf-4ae2-b212-c26b453d93ce",
+          "path": "本科生校内学习 / 新生报到"
+        },
+        {
+          "id": "2dfda404-ff6f-4b79-8730-a5214d28f49a",
+          "path": "本科生校内学习 / 学费"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "国际学生毕业手续与证书领取 2024年说明",
+      "sources": [
+        {
+          "url": "https://ices.sufe.edu.cn/42/d5/c9628a213717/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "54fc458b-d583-4044-b416-eb6bc097aed6",
+          "path": "成长机会 / 国际交流 / 国际学生毕业"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "档案数字资源申请与使用限制",
+      "sources": [
+        {
+          "url": "https://archives.sufe.edu.cn/szzylyzd/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "b8178373-ca4e-40d0-9b51-8c282ba06de4",
+          "path": "本科生校内学习 / 毕业 / 档案查询"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "教学科研实验资源与平台概览",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/13642/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-69162ccd50c8",
+          "path": "学生优惠 / 校内资源"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学校学术期刊与研究方向概览",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/13641/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "b1a5efdf-de38-4d4b-bd28-fa3f1edeb853",
+          "path": "成长机会 / 科研 / 学术期刊"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "商学院职业发展服务与公开入口",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/Home/Career",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-542459554b43",
+          "path": "成长机会 / 实习"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财学位论文数据库与全文查阅说明",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/d8/7e/c8310a186494/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-84a0f94d2d4b",
+          "path": "成长机会 / 科研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆数字资源使用规范",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/sjksyxz/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-e339d522cff7",
+          "path": "本科生校内学习 / 教材 / 电子教材"
+        },
+        {
+          "id": "c3121a7f-7675-4ebe-b4cc-1a61505c6592",
+          "path": "生活服务 / 图书馆 / 数据库"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆嵌入式信息素养培训预约",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8334/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "c2cba9b1-a325-40c0-8275-a57cdebbd7be",
+          "path": "成长机会 / 科研 / 科研培训"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆数字资源校外访问方式",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8324/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-e339d522cff7",
+          "path": "本科生校内学习 / 教材 / 电子教材"
+        },
+        {
+          "id": "c3121a7f-7675-4ebe-b4cc-1a61505c6592",
+          "path": "生活服务 / 图书馆 / 数据库"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆文献管理工具与机构使用说明",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8336/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-cd790104f560",
+          "path": "学生优惠 / 数字软件"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "外文期刊检索与馆外文献获取指南",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8321/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-84a0f94d2d4b",
+          "path": "成长机会 / 科研"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "商学院职业发展系统：简历与咨询模块（2021 年介绍）",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/Home/Detail/18318",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "d5040c41-2095-4015-a2ba-8d61d4da8f53",
+          "path": "成长机会 / 实习 / 职业咨询"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "商学院一对一职业发展咨询预约",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/Home/Detail/19582",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "d5040c41-2095-4015-a2ba-8d61d4da8f53",
+          "path": "成长机会 / 实习 / 职业咨询"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "毕业生人事档案转递办法（网页 2026，落款 2023）",
+      "sources": [
+        {
+          "url": "https://zzb.sufe.edu.cn/5c/65/c10599a154725/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "7febc3b2-035d-49c4-a5f1-24ae6d611eea",
+          "path": "本科生校内学习 / 毕业 / 档案转递"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025 年千村调查结项要求（历史）",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c0/21/c5450a245793/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2460305c5a82",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 实践活动"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025 年千村调查报名与培训（历史）",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c0/20/c5450a245792/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2460305c5a82",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 实践活动"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025 年大学生创新创业训练项目申报（历史）",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c0/31/c5450a245809/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2e7ac93576e8",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 创新项目"
+        },
+        {
+          "id": "3ddedb87-0b8a-42c6-906c-5bf2d4635885",
+          "path": "成长机会 / 科研 / 大创"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校友服务平台 2.0：校友卡与入校功能",
+      "sources": [
+        {
+          "url": "https://xy.sufe.edu.cn/cc/c8/c11018a249032/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "670869ca-a025-49b8-805d-0c1fc6ea66d2",
+          "path": "学生优惠 / 校内资源 / 校友卡"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "创业基金与经佳创新创业奖教奖学金介绍",
+      "sources": [
+        {
+          "url": "https://sei.sufe.edu.cn/9907/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "fa2e3869-b50d-47c5-84d0-368f3c59cfcb",
+          "path": "成长机会 / 创业 / 创业基金"
+        },
+        {
+          "id": "b3d87545-1974-49ac-b38c-0e44be0393e1",
+          "path": "成长机会 / 创业 / 创业奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "匡时班创新创业人才培养项目简介",
+      "sources": [
+        {
+          "url": "https://sei.sufe.edu.cn/9873/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "a3368916-e258-4d33-a416-ae4bb3146535",
+          "path": "成长机会 / 创业 / 匡时班"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财创客空间服务介绍",
+      "sources": [
+        {
+          "url": "https://sei.sufe.edu.cn/9904/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "80b67a67-d8a0-494c-a619-7806e1d7afe4",
+          "path": "成长机会 / 创业 / 创客空间"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "校史馆与商学博物馆展览概览",
+      "sources": [
+        {
+          "url": "https://archives.sufe.edu.cn/sgjj/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "b08d3d7d-420a-4714-ba3b-bf958979d45f",
+          "path": "校园文化 / 校史馆"
+        },
+        {
+          "id": "955087d4-f9c1-421e-9daf-976b484a53f6",
+          "path": "校园文化 / 商学博物馆"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "第六届育衡杯论文比赛历史规则",
+      "sources": [
+        {
+          "url": "https://cge.sufe.edu.cn/d3/89/c5693a250761/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ff0aa56fe741",
+          "path": "成长机会 / 竞赛"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年春季社团招新活动回顾",
+      "sources": [
+        {
+          "url": "https://news.sufe.edu.cn/f1/50/c179a258384/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-7106c117f900",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 学生组织活动"
+        },
+        {
+          "id": "s-6842fc3c9aec",
+          "path": "校园文化 / 社团"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026 届毕业生团组织关系转接指南",
+      "sources": [
+        {
+          "url": "https://youth.sufe.edu.cn/e7/6c/c2740a255852/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ee1ef51a152e",
+          "path": "成长机会 / 团组织"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财社会实践类型与千村调查概览",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/61/6e/c13570a221550/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-2460305c5a82",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 实践活动"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026 年新文科实践创新大赛报名规则",
+      "sources": [
+        {
+          "url": "https://sei.sufe.edu.cn/1d/72/c9915a269682/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ff0aa56fe741",
+          "path": "成长机会 / 竞赛"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026 年中国国际大学生创新大赛校赛第二轮",
+      "sources": [
+        {
+          "url": "https://sei.sufe.edu.cn/1d/74/c9915a269684/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ff0aa56fe741",
+          "path": "成长机会 / 竞赛"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "今日“上财头条”留给爱读书的你～",
+      "sources": [
+        {
+          "url": "https://m.thepaper.cn/newsDetail_forward_33046370",
+          "retrievedStatus": null
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "1aace737-e8f9-4cc6-9216-f675a6405b49",
+          "path": "校园文化 / 阅读活动"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "谁是SUFE新一届阅读之星？爱读书的你快来报名呀！",
+      "sources": [
+        {
+          "url": "https://m.thepaper.cn/newsDetail_forward_32820533",
+          "retrievedStatus": null
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "4be4a419-3f90-491a-8ee6-c9b3563af26c",
+          "path": "校园文化 / 阅读活动 / 阅读评选"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026上财国际本科新生奖学金历史说明",
+      "sources": [
+        {
+          "url": "https://intlstu.sufe.edu.cn/d9/7c/c12473a252284/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "39348351-c34c-4388-a282-1bf869ba65b9",
+          "path": "成长机会 / 国际交流 / 国际学生奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026国际本科上海政府奖学金历史说明",
+      "sources": [
+        {
+          "url": "https://intlstu.sufe.edu.cn/d9/7e/c12473a252286/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "39348351-c34c-4388-a282-1bf869ba65b9",
+          "path": "成长机会 / 国际交流 / 国际学生奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026国际中文教师奖学金本科历史说明",
+      "sources": [
+        {
+          "url": "https://intlstu.sufe.edu.cn/d9/7f/c12473a252287/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "39348351-c34c-4388-a282-1bf869ba65b9",
+          "path": "成长机会 / 国际交流 / 国际学生奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026至2027澜湄专项奖学金历史申请说明",
+      "sources": [
+        {
+          "url": "https://intlstu.sufe.edu.cn/fc/06/c12473a261126/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "39348351-c34c-4388-a282-1bf869ba65b9",
+          "path": "成长机会 / 国际交流 / 国际学生奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025届基层就业补偿代偿历史通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c6/63/c5450a247395/page.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://xsc.sufe.edu.cn/_upload/article/files/f6/26/e96ab34f4eab88deb015e9500c73/e2952ac9-4de5-457e-bd56-046393d29811.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "a0ec0d42-a9f0-41e2-ae31-4228c4ef37e5",
+          "path": "成长机会 / 学生资助 / 基层代偿"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025至2026学年困难生认定历史通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c6/65/c5450a247397/page.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://xsc.sufe.edu.cn/_upload/article/files/80/a0/509859df4f74944fabab472e3b1e/8f2083a3-87e7-4bfc-896e-7bc712efb7b1.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "80284a23-e364-4804-aa49-21b50893df41",
+          "path": "成长机会 / 学生资助 / 困难认定"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025至2026学年学费减免申请历史通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c6/66/c5450a247398/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "f2ec9b83-fe1a-4e48-8b57-cb04e99b357a",
+          "path": "成长机会 / 学生资助 / 学费减免"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年MBA EMBA单项奖学金历史通知",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/MBA/Detail/27922",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "关于2025年国家开发银行生源地助学贷款毕业确认工作的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c6/61/c5450a247393/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "448a2112-42bb-456d-9f32-eccc9ea375d4",
+          "path": "成长机会 / 学生资助 / 助学贷款"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于开展2024-2025学年本科生优秀学生人民奖学金、单项奖学金评选工作的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/0c/37/c5450a265271/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "aba63603-9176-4597-9c76-60081354bf58",
+          "path": "成长机会 / 学生资助 / 人民奖学金"
+        },
+        {
+          "id": "ee95477d-7d49-43db-baca-f77ccbe4dd89",
+          "path": "成长机会 / 学生资助 / 单项奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于开展2024-2025学年本科生国家奖学金评选工作的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/0a/bd/c5450a264893/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "79cc989c-1ff3-48c9-a3be-847f08e544e2",
+          "path": "成长机会 / 学生资助 / 国家奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于采集2025-2026学年生源地助学贷款受理证明回执校验码的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/c6/64/c5450a247396/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "448a2112-42bb-456d-9f32-eccc9ea375d4",
+          "path": "成长机会 / 学生资助 / 助学贷款"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于开展2024-2025学年本科生社会奖学金评选工作的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/0c/38/c5450a265272/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "33c84903-4d63-45e1-8888-691e6498018c",
+          "path": "成长机会 / 学生资助 / 社会奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于开展2024-2025学年国家励志奖学金评选工作的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/0a/be/c5450a264894/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "fd752c55-3af1-4670-a3bf-ba51cc85ec04",
+          "path": "成长机会 / 学生资助 / 国家励志奖学金"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "关于组织开展2024-2025学年家庭经济困难学生认定工作的通知",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/b0/b5/c5450a241845/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "采用新依据",
+      "entries": [
+        {
+          "id": "s-2029781575ef",
+          "path": "成长机会 / 学生资助"
+        }
+      ],
+      "note": "采用较新学年认定通知，未重复旧年度时间。"
+    },
+    {
+      "title": "上海财经大学学费减免实施办法",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/_upload/article/files/e1/35/b4f4e7604797a632664d9bfaf3df/98371a34-6e3c-4bb9-b02c-1f2721b15ec5.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "f2ec9b83-fe1a-4e48-8b57-cb04e99b357a",
+          "path": "成长机会 / 学生资助 / 学费减免"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上海财经大学学生临时困难补助管理办法",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/_upload/article/files/3b/45/df653ef842d7aac56b08b317fc0e/13d52c72-1774-4ba7-a326-cd2e9659d2f7.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "50e639f1-2baa-47d5-bf90-fde3b02fca48",
+          "path": "成长机会 / 学生资助 / 临时补助"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上海财经大学学生勤工助学管理办法",
+      "sources": [
+        {
+          "url": "https://xsc.sufe.edu.cn/_upload/article/files/9c/d8/bf460ef14d76a21a713697c58430/9903a61e-8740-4c78-809d-fe160d8ddad5.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "e136ab4b-1a84-4648-96af-696886032bf9",
+          "path": "成长机会 / 学生资助 / 勤工助学"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科自主转专业审批流程",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/e1/8d/e775793944139cb2dd3bff8cf37a/20dfe6db-487a-4218-bbea-586efdbd7a9f.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "采用新依据",
+      "entries": [
+        {
+          "id": "s-5eb17cf6d326",
+          "path": "本科生校内学习 / 转专业"
+        }
+      ],
+      "note": "采用2026政策与学院通知，旧流程不作为当前统一规则。"
+    },
+    {
+      "title": "本科休学复学申请审批流程",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/e1/8d/e775793944139cb2dd3bff8cf37a/53584bf5-e639-4ed6-896a-8339268d56b2.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "57b15e74-fea2-4500-83c4-b171728e4184",
+          "path": "本科生校内学习 / 学籍 / 休学"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科双专业报名与录取流程",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/e1/8d/e775793944139cb2dd3bff8cf37a/e5b45378-950e-49ee-920e-8fe0e5efa43f.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "7e1b68c4-1a5f-45c0-998e-f67e971dd1d5",
+          "path": "本科生校内学习 / 培养方案 / 辅修"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "非全日制会计专硕培养与学习方式",
+      "sources": [
+        {
+          "url": "https://saaa.sufe.edu.cn/fqzs/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "2025级法学第二学士学位培养方案",
+      "sources": [
+        {
+          "url": "https://law.sufe.edu.cn/c2/78/c8529a246392/page.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://law.sufe.edu.cn/_upload/article/files/e5/f3/62c04a3b40fa897464ed302256fe/a66fa5c7-61be-4454-b7ab-03f6278d73d9.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "a0fa0c49-7e4b-4eaf-9fea-6731263bdf1f",
+          "path": "本科生校内学习 / 培养方案 / 第二学士"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025级法学与金融双学士培养方案",
+      "sources": [
+        {
+          "url": "https://law.sufe.edu.cn/c2/6f/c8529a246383/page.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://law.sufe.edu.cn/_upload/article/files/27/0f/4b016c9f4c5ca42bef5b4c739f33/4e1c0767-ed6e-4d94-a09b-43c10731b32c.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "edd6d141-802b-4366-bf08-ba089c44ebb9",
+          "path": "本科生校内学习 / 培养方案 / 双学士"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025级法学本科培养方案",
+      "sources": [
+        {
+          "url": "https://law.sufe.edu.cn/c2/70/c8529a246384/page.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://law.sufe.edu.cn/_upload/article/files/18/a6/2176294b4cc1a1f2c5b95c7329d0/bffd62f4-1d3a-4785-9b66-d65e633af9f4.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-8bf12cd08747",
+          "path": "本科生校内学习 / 培养方案"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年本科专业目录与分流时间",
+      "sources": [
+        {
+          "url": "https://zs.sufe.edu.cn/08/c0/c3337a264384/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-8bf12cd08747",
+          "path": "本科生校内学习 / 培养方案"
+        },
+        {
+          "id": "e626e009-4b46-48eb-b907-5f6d721220ca",
+          "path": "本科生校内学习 / 专业分流"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "人工智能实验班培养与选拔说明",
+      "sources": [
+        {
+          "url": "https://scai.sufe.edu.cn/b6/c7/c18482a243399/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "26ea822a-4788-48fe-be44-fa5af9d65d7b",
+          "path": "本科生校内学习 / 培养方案 / 实验班"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "计算机科学与技术专业培养方向",
+      "sources": [
+        {
+          "url": "https://scai.sufe.edu.cn/b6/c6/c18482a243398/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-de70909e5ba3",
+          "path": "本科生校内学习 / 培养方案 / 课程分类"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "人工智能专业培养方向与课程介绍",
+      "sources": [
+        {
+          "url": "https://scai.sufe.edu.cn/b1/91/c18482a242065/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-de70909e5ba3",
+          "path": "本科生校内学习 / 培养方案 / 课程分类"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025年境外学习申请与返校常见问题",
+      "sources": [
+        {
+          "url": "https://ieco.sufe.edu.cn/bf/81/c18858a245633/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "采用新依据",
+      "entries": [
+        {
+          "id": "s-b6f8637a5354",
+          "path": "成长机会 / 国际交流"
+        }
+      ],
+      "note": "采用2026—2027问答与当前学分办法。"
+    },
+    {
+      "title": "外国语学院海外学分认定与课程转换流程",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/c9/73/c3940a248179/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "e786819d-27eb-400b-8613-e04dba57a938",
+          "path": "成长机会 / 国际交流 / 返校报到"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科荣誉学士学位授予试行办法",
+      "sources": [
+        {
+          "url": "https://gongkai.sufe.edu.cn/_upload/article/files/09/55/2b7ec27a4f2f9ea01eb328313ee5/ef328f68-da33-48fd-ad54-b8474530d86c.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "4411ed04-feab-42ea-8af4-62523f6aca7d",
+          "path": "本科生校内学习 / 毕业 / 荣誉学位"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "非英语专业本科外语能力培养方案 2026级附件",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/_upload/article/files/ba/38/0e82f83a46edb33fb2e91063f8d5/55ed5ead-3391-467d-90c7-5ed47b15d0dd.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-5952ac4bf377",
+          "path": "本科生校内学习 / 培养方案 / 英语分级"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科校外学分认定与成绩转换 2026年修订版",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/_upload/article/files/6f/2c/f496fbdb456fac201bd969ab29f0/7b72f526-5663-45eb-9b53-faab43984c1f.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "ad43410f-ac58-4096-9d5a-bd49c49d61fb",
+          "path": "本科生校内学习 / 培养方案 / 校外学分"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "档案利用服务系统 2.0 公开入口说明",
+      "sources": [
+        {
+          "url": "https://archives.sufe.edu.cn/f7/87/c3148a259975/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "b8178373-ca4e-40d0-9b51-8c282ba06de4",
+          "path": "本科生校内学习 / 毕业 / 档案查询"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "统计与数据科学学院 2025级转专业选拔说明",
+      "sources": [
+        {
+          "url": "https://ssds.sufe.edu.cn/ef/77/c692a257911/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-5eb17cf6d326",
+          "path": "本科生校内学习 / 转专业"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年英法复语实验班选拔公告",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/16/06/c3940a267782/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "26ea822a-4788-48fe-be44-fa5af9d65d7b",
+          "path": "本科生校内学习 / 培养方案 / 实验班"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026年本科转专业辅修与培养路径介绍",
+      "sources": [
+        {
+          "url": "https://zs.sufe.edu.cn/0b/08/c3343a264968/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-de70909e5ba3",
+          "path": "本科生校内学习 / 培养方案 / 课程分类"
+        },
+        {
+          "id": "s-5eb17cf6d326",
+          "path": "本科生校内学习 / 转专业"
+        },
+        {
+          "id": "7e1b68c4-1a5f-45c0-998e-f67e971dd1d5",
+          "path": "本科生校内学习 / 培养方案 / 辅修"
+        },
+        {
+          "id": "7a5b4353-7255-4604-b2b8-5ed7b4cfeddb",
+          "path": "本科生校内学习 / 培养方案 / 微专业"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026级本科实验班校内选拔安排",
+      "sources": [
+        {
+          "url": "https://zs.sufe.edu.cn/08/c1/c3337a264385/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-8bf12cd08747",
+          "path": "本科生校内学习 / 培养方案"
+        },
+        {
+          "id": "s-5eb17cf6d326",
+          "path": "本科生校内学习 / 转专业"
+        },
+        {
+          "id": "26ea822a-4788-48fe-be44-fa5af9d65d7b",
+          "path": "本科生校内学习 / 培养方案 / 实验班"
+        },
+        {
+          "id": "edd6d141-802b-4366-bf08-ba089c44ebb9",
+          "path": "本科生校内学习 / 培养方案 / 双学士"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科生校外学习学分认定 2024年修订版",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/_upload/article/files/6f/2c/f496fbdb456fac201bd969ab29f0/17d56b6c-8a0a-4c9b-863a-36e9890a278b.pdf",
+          "retrievedStatus": null
+        }
+      ],
+      "decision": "采用新依据",
+      "entries": [
+        {
+          "id": "s-8bf12cd08747",
+          "path": "本科生校内学习 / 培养方案"
+        }
+      ],
+      "note": "旧文件链接失效；2026修订版明确新老学生分开适用，未推断旧规则细节。"
+    },
+    {
+      "title": "本科学生学籍管理实施细则 2024年修订版",
+      "sources": [
+        {
+          "url": "https://gongkai.sufe.edu.cn/c0/af/c13867a245935/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-76df16df8890",
+          "path": "本科生校内学习 / 培养方案 / 学分机制"
+        },
+        {
+          "id": "s-66d44c9c62f4",
+          "path": "本科生校内学习 / 培养方案 / 体育"
+        },
+        {
+          "id": "s-fa8edffc2528",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂"
+        },
+        {
+          "id": "s-ac14a5358912",
+          "path": "本科生校内学习 / 考试 / 免修"
+        },
+        {
+          "id": "s-4c4033d508ab",
+          "path": "本科生校内学习 / 考试 / 补考"
+        },
+        {
+          "id": "s-e505a21bb604",
+          "path": "本科生校内学习 / 考试 / 缓考"
+        },
+        {
+          "id": "s-76e7ea45f54b",
+          "path": "本科生校内学习 / 成绩"
+        },
+        {
+          "id": "s-99b88b2e5427",
+          "path": "本科生校内学习 / 毕业"
+        },
+        {
+          "id": "s-b37c89280886",
+          "path": "本科生校内学习 / 毕业 / 提前毕业"
+        },
+        {
+          "id": "s-3ff7e15a906c",
+          "path": "本科生校内学习 / 毕业 / 延后毕业"
+        },
+        {
+          "id": "0aa6e4ab-aed6-412e-b954-5567c40f6e8b",
+          "path": "本科生校内学习 / 学籍"
+        },
+        {
+          "id": "12876256-395b-45e0-80dc-558488559e29",
+          "path": "本科生校内学习 / 学籍 / 注册"
+        },
+        {
+          "id": "57b15e74-fea2-4500-83c4-b171728e4184",
+          "path": "本科生校内学习 / 学籍 / 休学"
+        },
+        {
+          "id": "8817d9fb-8dde-4730-b23c-cbd0052a2b2f",
+          "path": "本科生校内学习 / 学籍 / 复学"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "研究生培养方案概述（2022 年页面）",
+      "sources": [
+        {
+          "url": "https://gs.sufe.edu.cn/Home/Detail/7236",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "待建词条",
+      "entries": [],
+      "note": "研究生、MBA或EMBA专属资料，未放入本科学习主题。目录位置与独立词条待补充。"
+    },
+    {
+      "title": "2026至2027学年校历与考试假期安排",
+      "sources": [
+        {
+          "url": "https://www.sufe.edu.cn/13651/list.htm",
+          "retrievedStatus": 200
+        },
+        {
+          "url": "https://www.sufe.edu.cn/_upload/article/images/d3/9c/02be95d14b07b932d808119124c9/e5f3f87a-c5f9-429e-823f-b2dc1c5674b9_d.jpg",
+          "retrievedStatus": null
+        },
+        {
+          "url": "https://www.sufe.edu.cn/_upload/article/images/d3/9c/02be95d14b07b932d808119124c9/4edb442e-e3d4-4acf-a550-cec4f8f336f2_d.jpg",
+          "retrievedStatus": null
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-c6c5c70b2804",
+          "path": "本科生校内学习"
+        },
+        {
+          "id": "s-1f05d114d724",
+          "path": "本科生校内学习 / 考试"
+        },
+        {
+          "id": "s-f6ec435e8b97",
+          "path": "校园文化 / 文体活动"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科课程缓考申请办理",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/e1/8d/e775793944139cb2dd3bff8cf37a/05491001-12bb-49b8-80b8-e39159435d75.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "采用新依据",
+      "entries": [
+        {
+          "id": "s-e505a21bb604",
+          "path": "本科生校内学习 / 考试 / 缓考"
+        }
+      ],
+      "note": "无日期流程图与2024学籍细则期限不同，采用明确日期的学籍细则。"
+    },
+    {
+      "title": "本科重修与课程替换办理",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/e1/8d/e775793944139cb2dd3bff8cf37a/e470cdc5-5780-4d49-ad18-f265ea4c5887.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-76df16df8890",
+          "path": "本科生校内学习 / 培养方案 / 学分机制"
+        },
+        {
+          "id": "s-4c4033d508ab",
+          "path": "本科生校内学习 / 考试 / 补考"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科选课三阶段与确认流程",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/e1/8d/e775793944139cb2dd3bff8cf37a/025b73b4-57cf-4890-ab09-6131bf66731d.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-951a59718f40",
+          "path": "本科生校内学习 / 选课"
+        },
+        {
+          "id": "s-a6f11a17ab76",
+          "path": "本科生校内学习 / 选课 / 选课批次"
+        },
+        {
+          "id": "s-1fc24fe71a3f",
+          "path": "本科生校内学习 / 选课 / 退课机制"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "通识课程论文选题与论证方法",
+      "sources": [
+        {
+          "url": "https://cge.sufe.edu.cn/d3/8e/c5692a250766/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-71731269b2e8",
+          "path": "本科生校内学习 / 作业"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "通识课程修读框架 2015起实施说明",
+      "sources": [
+        {
+          "url": "https://cge.sufe.edu.cn/5697/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-de70909e5ba3",
+          "path": "本科生校内学习 / 培养方案 / 课程分类"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "图书馆信息素养课程与常规培训",
+      "sources": [
+        {
+          "url": "https://lib.sufe.edu.cn/8335/list.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-ed1151245590",
+          "path": "本科生校内学习 / 培养方案 / 第二课堂 / 学术讲座"
+        },
+        {
+          "id": "c2cba9b1-a325-40c0-8275-a57cdebbd7be",
+          "path": "成长机会 / 科研 / 科研培训"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科毕业论文重复率检测办法 2025年修订版",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/b5/0f/cc3ee62d4bfda6c7b6e577a6547f/bdfed57f-dfca-4d69-b313-4ca0f284eb9d.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "8fe08141-81e9-4348-a3d0-74050662fe8c",
+          "path": "本科生校内学习 / 毕业 / 论文检测"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2026级本科英语分级考试与免修安排",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/_upload/article/files/52/99/3f0c0aad4e2792947b14bdc5ee29/564b9cc1-eb8c-46a8-92b8-2eba4c8f307f.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-5952ac4bf377",
+          "path": "本科生校内学习 / 培养方案 / 英语分级"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "学生考试试场规则 2023年修订版",
+      "sources": [
+        {
+          "url": "https://usercenter.sufe.edu.cn/Service/UeditorDownload?name=upload%2Ffile%2F20241113%2F6386710922277604107035130.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-1f05d114d724",
+          "path": "本科生校内学习 / 考试"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "上财教学网登录与技术支持入口",
+      "sources": [
+        {
+          "url": "https://jiaoxue.sufe.edu.cn/info/1071/2499981.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-71731269b2e8",
+          "path": "本科生校内学习 / 作业"
+        },
+        {
+          "id": "s-69162ccd50c8",
+          "path": "学生优惠 / 校内资源"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科毕业论文工作规定 2024年修订版",
+      "sources": [
+        {
+          "url": "https://jwc.sufe.edu.cn/_upload/article/files/b5/0f/cc3ee62d4bfda6c7b6e577a6547f/bb760396-8f43-43c9-80fd-2476db9ea0a7.pdf",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "edda8b0c-2c39-4480-af10-80b44637147f",
+          "path": "本科生校内学习 / 毕业 / 毕业论文"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "2025级本科大学英语分级与免修安排",
+      "sources": [
+        {
+          "url": "https://sfs.sufe.edu.cn/c9/d8/c3940a248280/page.htm",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-5952ac4bf377",
+          "path": "本科生校内学习 / 培养方案 / 英语分级"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    },
+    {
+      "title": "本科暑期国际课程选课 2024至2025学年第三学期",
+      "sources": [
+        {
+          "url": "https://cob.sufe.edu.cn/Home/Detail/26468",
+          "retrievedStatus": 200
+        }
+      ],
+      "decision": "已整理",
+      "entries": [
+        {
+          "id": "s-951a59718f40",
+          "path": "本科生校内学习 / 选课"
+        }
+      ],
+      "note": "相关内容已整理，具体适用对象和年份见词条正文；不复制来源全文。"
+    }
+  ]
+}
